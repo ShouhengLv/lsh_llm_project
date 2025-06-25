@@ -1,0 +1,6 @@
+{
+  "api_key": "sk-a4feb749656b42a58bf302ff7119746f",
+  "base_url": "https://api.deepseek.com/v1",
+  "model": "deepseek-reasoner",
+  "default_temperature": 0.7
+}
