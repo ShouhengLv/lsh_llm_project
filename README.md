@@ -2,7 +2,7 @@
 （多模态）大语言模型应用开发
 # 大语言模型基础应用
 
-本项目是人工智能基础课程期末大作业，实现基于OpenAI GPT API的智能问答机器人，支持不同temperature参数调节，输入输出结构校验，基础命令行交互。
+本项目是人工智能基础课程期末大作业，实现基于deepseek-R1的智能问答机器人，支持不同temperature参数调节，输入输出结构校验，基础命令行交互。
 
 ## 运行环境
 
@@ -23,10 +23,10 @@ python main.py
 # lsh_llm_project
 
 * [data/](.\lsh_llm_project\data)
-  * [docs.txt](.\lsh_llm_project\data\docs.txt)<span style="display:inline-block; width:200px;"></span># RAG所用训练数据，数据来自百度的DuReader QA语料，由于时间和算力限制，仅用10000条数据进行训练
+  * [docs.txt](.\lsh_llm_project\data\docs.txt)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# RAG所用训练数据，数据来自百度的DuReader QA语料，由于时间和算力限制，仅用10000条数据进行训练
 * [models/](.\lsh_llm_project\models)
-  * [text2vec/](.\lsh_llm_project\models\text2vec)<span style="display:inline-block; width:200px;"></span># RAG所用训练embedding模型
-* [rag/](.\lsh_llm_project\rag)<span style="display:inline-block; width:200px;"></span># 构建领域知识库增强
+  * [text2vec/](.\lsh_llm_project\models\text2vec)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# RAG所用训练embedding模型
+* [rag/](.\lsh_llm_project\rag)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# 构建领域知识库增强
   * [build_index.py](.\lsh_llm_project\rag\build_index.py)
   * [corpus.pkl](.\lsh_llm_project\rag\corpus.pkl)
   * [index.faiss](.\lsh_llm_project\rag\index.faiss)
