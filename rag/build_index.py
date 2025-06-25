@@ -11,7 +11,7 @@ TOKENIZER_PATH = "./models/text2vec"
 DATA_PATH = "data/docs.txt"
 INDEX_PATH = "rag/index.faiss"
 CORPUS_PATH = "rag/corpus.pkl"
-MAX_LINES = 100
+MAX_LINES = 50000
 BATCH_SIZE = 32
 
 # ========== 初始化 tokenizer 和 ONNX session ==========
